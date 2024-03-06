@@ -57,3 +57,7 @@ for i, msg in enumerate(st.session_state.messages[1:]):
     else:
         message(msg.content, is_user=False, key=f'{i} + :europe:')
 
+
+
+
+
